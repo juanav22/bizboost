@@ -38,3 +38,247 @@
 /*=======================================
     BREAKPOINTS
 =========================================*/
+
+/*=======================================
+    #Variables
+=========================================*/
+
+/**
+  TABLE OF CONTENTS
+
+  COLORS
+  Brand colors............................These are the main brand colors.
+  Neutral colors..........................White and black, gray sacale, secondary colors.
+  Utility colors..........................Other colors to represent states: info, warning, sucess, etc.
+
+  TYPOGRAPHY
+  Font famillies..........................The fonts used in the design system.
+  Font weights............................Font weights
+  Sizes...................................Font sizing for body text, paragraphs, inputs
+  Heading sizes...........................Font sizing for page headings
+
+  BREAKPOINTS
+  Breakpoints.............................Global responsive breakpoints definitions
+*/
+
+/*=======================================
+    COLORS
+=========================================*/
+
+/*=======================================
+    TYPOGRAPHY
+=========================================*/
+/* 
+  1. The Poppins font. This is the main font.
+  https://fonts.googleapis.com/css?family=Poppins
+
+  2. The Courier font. This is used for <pre> code.
+  https://fonts.googleapis.com/css?family=Poppins
+*/
+
+/*=======================================
+    BREAKPOINTS
+=========================================*/
+:root {
+  --base-font: 20px;
+  --white: #fff;
+  --body-text: #abadb3;
+  --primary-bg: #0a0c11;
+  --primary-font: "Poppins";
+  --secondary-font: "Roboto";
+  --tertiary-font: "Heebo";
+  --primary: #2292b1;
+  --gradient-start: #1b3385;
+  --gradient-end: #25c5c9;
+  --thin: 100;
+  --extra-light: 200;
+  --light: 300;
+  --normal: 400;
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;
+  --extra-bold: 800;
+  --heavy: 900;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+  color: #abadb3;
+  background: var(--primary-bg);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--primary-font);
+  font-weight: var(--medium);
+  color: var(--white);
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: var(--medium);
+  line-height: 1.5em;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: var(--medium);
+  line-height: 2.85;
+}
+
+h3 {
+  font-size: 1.47em;
+  font-weight: var(--medium);
+  line-height: 1.92em;
+}
+
+h4 {
+  font-size: 1.4em;
+  font-weight: var(--bold);
+  line-height: 2.1em;
+}
+
+h5 {
+  font-size: 1.2em;
+  font-weight: var(--bold);
+  line-height: 1.6em;
+}
+
+h6 {
+  font-size: 1.44em;
+  font-weight: var(--semi-bold);
+  line-height: 1.4em;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.lowlight {
+  opacity: 0.5;
+}
+
+.cta {
+  margin: 18.75em 30.65em 1.75em;
+  background: linear-gradient(
+    to right,
+    var(--gradient-start) 0%,
+    var(--gradient-end) 100%
+  );
+
+  border-radius: 1.5em;
+  border: none;
+  color: var(--white);
+  font-family: var(--primary-font);
+  font-weight: var(--bold);
+  font-size: 0.9em;
+  line-height: 1.404em;
+  margin-top: 0.8em;
+  padding: 0.75em 1.73em 0.8039em 1.75em;
+
+  text-transform: capitalize;
+}
+
+.cta:hover {
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  filter: alpha (opacity=50);
+}
+.cta a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 5px 5px 0;
+}
+
+a {
+  color: var(--bodytext);
+  font-family: var(--primary-font);
+  text-decoration: none;
+}
+
+p {
+  font-family: var(--primary-font);
+  font-size: 0.9375rem;
+  line-height: 1.4875rem;
+  text-align: center;
+}
+
+header {
+  background-color: var(--primary-bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 28px;
+  margin: 21px 28px 21px 21px;
+}
+
+.nav li ul {
+  display: none;
+  background-color: var(--white);
+  position: absolute;
+  left: 0%;
+  top: 100%;
+  padding: 0%;
+}
+
+.nav li a {
+  font-family: var(--primary-font);
+  color: var(--white);
+  font-size: 1em;
+  padding: 0.8em 1.325em;
+  text-decoration: none;
+  line-height: 1.5em;
+}
+
+nav ul li:hover {
+  background: #2292b1;
+}
+
+.main section {
+  width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  font-family: var(--primary-font);
+  font-weight: var(--bold);
+  font-size: 2em;
+  color: var(--white);
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  align-items: baseline;
+}
+
+.lowhight {
+  opacity: 0.5;
+}
+
+.hero-container {
+  justify-content: space-between;
+}
+
+.nav li:hover ul {
+  display: block;
+  background-color: #0a0c11;
+}
