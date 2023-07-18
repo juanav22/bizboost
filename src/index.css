@@ -221,6 +221,7 @@ a:hover {
   font-weight: var(--bold);
   font-size: 0.9em;
   line-height: 1.404em;
+  margin-top: 0.8em;
   text-transform: capitalize;
 }
 
