@@ -8,6 +8,12 @@
       "options": {
         "parser": "css"
       }
+    },
+    {
+      "files": "*.html",
+      "options": {
+        "printWidth": 120
+      }
     }
   ]
 }

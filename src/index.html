@@ -3,53 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier+Prime" />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Bizboost</title>
   </head>
   <body>
-    <!-- Hero -->
-    <!--
-      *<section> como un contenedor de hero 
-      *<header> para el logo, navegacion y red social 
-      *<main> contenedor h1, <article> <p>
-      *<button> "get started"
-      *<figure> link del video
-      
-    -->
-    <!-- Our Services -->
-    <!-- 
-      *Crear contenedor <services-container> 
-      *Crear contenedor <nav-flex>
-      *Crear <figure> dentro una img 
-      *<main> contenedor h5,h2 <article> <p>
-      *<button> "get started" 
-      *Crear <box> dentro creamos un <ul><li>*4 y usamos flexbox para darle alineacion horizontal
-    -->
-    <!-- Feature Content-->
-    <!-- 
-      *Crear contenedor "feature-container"
-      *Crear contenedor "feature-heading-container"
-      *Crear h5 "WHAT WE DO"
-      *Crear h2 "Featured Content"
-      *Crear <box>*3 dentro img, h3, <p>, <a> "View More"
-    -->
-
-    <!-- Promotional Contact-->
-    <!--
-      *Crear contenedor "promotional-container"
-      *Crear contenedor "promotional-heading-container"
-      *Crear h5 "PROMOTIONAL CONTACT"
-      *Crear h2 "Ready To Work Together?"  
-      *<button> "Contact Us"
-    -->
-
-    <!-- Footer -->
-    <!-- 
-      *<box> *3 flexbox
-      *<addres> e-mail
-      *<button> subscripcion
-      *Crear contenedor "copyright"
-      *Crear contenedor "social"
-      *flexbox redes sociales   
-    -->
+    <!-- hero -->
+    <section>
+      <header>
+        <a href="/" class="logo">BizBoost</a>
+        <nav>
+          <ul class="nav">
+            <li>
+              <a href="#" class="selection">Home</a>
+            </li>
+            <li>
+              <a href="#">
+                Templates
+                <img src="./img/expand-arrow.svg" alt="" />
+              </a>
+              <ul class="ul-nav">
+                <li>
+                  <a href="">Right Sidebar</a>
+                </li>
+                <li>
+                  <a href="">No Sibebar</a>
+                </li>
+                <li>
+                  <a href="">Style Guide</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="social">
+          <li>
+            <div class="circle"></div>
+            <a href="https://facebook.com/codigoingenierooficial" target="_blank">
+              <img src="./img/facebook.svg" alt="Facebook" />
+            </a>
+          </li>
+          <li>
+            <div class="circle"></div>
+            <a href="https://twitter.com/CodigoIngenierooficial" target="_blank">
+              <img src="./img/twitter.svg" alt="Twitter" />
+            </a>
+          </li>
+          <li>
+            <div class="circle"></div>
+            <a href="https://www.linkendin.com/codigoingenierooficial/" target="_blank">
+              <img src="./img/linkedin.svg" alt="Linkendin" />
+            </a>
+          </li>
+        </ul>
+      </header>
+      <main class="main-box">
+        <h1>We <span class="lowlight">build</span> digital experiences</h1>
+        <article>
+          <p>We collaborate with smart and creative people to build awesome WordPress Full Site Editing Themes.</p>
+        </article>
+        <button class="cta">Get Started</button>
+      </main>
+      <section class="video-box">
+        <figure>
+          <video
+            width="100%"
+            controls
+            loop
+            src="https://fse.catchthemes.com/bizboost-free/wp-content/themes/bizboost/assets/video/video-featured.mp4"
+          ></video>
+        </figure>
+      </section>
+    </section>
   </body>
 </html>
