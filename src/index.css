@@ -230,24 +230,19 @@ header * {
   background: var(--white);
 }
 
-/*.cta {
-  padding: 15px 34.86px 16.08px 35px;
-  background: linear-gradient(
-    to right,
-    var(--gradient-start) 0%,
-    var(--gradient-end) 100%
-  );
-  border-radius: 1.5em;
-  border: none;
-  color: var(--white);
-  font-family: var(--primary-font);
-  font-weight: var(--bold);
-  font-size: 0.9em;
-  line-height: 1.404em;
-  margin-top: 0.8em;
-  text-transform: capitalize;
+/* OUR SERVICES */
+.box-row {
+  display: flex;
 }
-
-.video-box {
-  margin: 30px 60px 0;
-}*/
+.box {
+  width: 840px;
+  height: 395.08px;
+  justify-content: flex-end;
+  border: 2px solid var(--tertiary-bg);
+  padding: 50px 30px;
+  background-color: var(--tertiary-bg);
+  margin: 0 10px;
+}
+.box p {
+  width: 578.76px;
+}
