@@ -229,20 +229,3 @@ header * {
   color: var(--primary-bg);
   background: var(--white);
 }
-
-/* OUR SERVICES */
-.box-row {
-  display: flex;
-}
-.box {
-  width: 840px;
-  height: 395.08px;
-  justify-content: flex-end;
-  border: 2px solid var(--tertiary-bg);
-  padding: 50px 30px;
-  background-color: var(--tertiary-bg);
-  margin: 0 10px;
-}
-.box p {
-  width: 578.76px;
-}
