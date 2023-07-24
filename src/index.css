@@ -229,25 +229,3 @@ header * {
   color: var(--primary-bg);
   background: var(--white);
 }
-
-/*.cta {
-  padding: 15px 34.86px 16.08px 35px;
-  background: linear-gradient(
-    to right,
-    var(--gradient-start) 0%,
-    var(--gradient-end) 100%
-  );
-  border-radius: 1.5em;
-  border: none;
-  color: var(--white);
-  font-family: var(--primary-font);
-  font-weight: var(--bold);
-  font-size: 0.9em;
-  line-height: 1.404em;
-  margin-top: 0.8em;
-  text-transform: capitalize;
-}
-
-.video-box {
-  margin: 30px 60px 0;
-}*/
