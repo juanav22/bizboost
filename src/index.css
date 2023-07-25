@@ -273,11 +273,6 @@ main > * {
   object-fit: cover;
 }
 
-/* .our-services *,
-.big-numbers * {
-  border: 1px solid var(--body-text);
-} */
-
 .our-services {
   margin: 42px 0;
 }
@@ -412,9 +407,6 @@ main > * {
     gap: 40px;
     padding: 0 80px;
     margin-bottom: 131px;
-  }
-
-  .services-figure img {
   }
 
   .big-numbers > * {
