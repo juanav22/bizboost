@@ -171,6 +171,27 @@ a {
   text-transform: capitalize;
 }
 
+hr {
+  position: absolute;
+  text-align: start;
+}
+
+.boxes a:hover {
+  color: var(--primary);
+}
+
+.boxes h2 {
+  font-family: var(--primary-font);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34.32px;
+}
+
+.boxes {
+  border: 2px solid var(--body-text);
+}
+
 a:hover,
 .logo h2:hover {
   color: var(--primary);
@@ -293,6 +314,26 @@ main > * {
   display: flex;
   justify-content: center;
 }
+
+/*=========================
+  Feature Container
+==========================*/
+
+.feature-container-layout {
+  border: 1px solid var(--body-text);
+}
+
+.boxes a:hover {
+  color: var(--primary);
+}
+
+/*.boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding: 44px;
+  align-items: flex-start;
+}*/
 
 /*=======================================
     TABLET & DESKTOP BREAKPOINTS
