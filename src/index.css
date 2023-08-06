@@ -320,6 +320,7 @@ main > * {
 
 .featured-content {
   text-align: center;
+  margin-top: -20px;
 }
 
 /*.featured-content h2 {
@@ -336,7 +337,7 @@ main > * {
   vertical-align: bottom;
 }
 
-.box:hover img {
+.box :hover img {
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
   opacity: 0.5;
@@ -381,10 +382,13 @@ main > * {
   text-align: center;
   padding: 74px 50px;
   position: relative;
+  margin-top: 105px;
+  margin-bottom: 30px;
 }
 
 .promotional-container-layout img {
   width: 100%;
+  height: 100%;
   position: absolute;
   left: 0;
   top: 0;
@@ -427,7 +431,7 @@ main > * {
   color: #fff;
   border-bottom-left-radius: 30px;
   border-top-left-radius: 30px;
-  width: 225px;
+  width: 171px;
 }
 
 .email-btn {
@@ -507,6 +511,13 @@ footer:last-child {
   font-size: 0.65em;
   border-top: 1px solid var(--border-color);
   padding: 20px 30px;
+}
+
+.to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 15px;
+  z-index: 999;
 }
 
 /*=======================================
@@ -699,7 +710,7 @@ footer:last-child {
     margin-top: -200px;
   }
 
-  .footer-links {
+  .links-block {
     display: block;
   }
 
@@ -736,5 +747,12 @@ footer:last-child {
 
   .footer-social ul {
     margin: 0;
+  }
+
+  .to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    z-index: 999;
   }
 }
