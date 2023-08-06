@@ -513,11 +513,31 @@ footer:last-child {
   padding: 20px 30px;
 }
 
-.to-top {
+/* .to-top {
   position: fixed;
   right: 20px;
   bottom: 15px;
   z-index: 999;
+} */
+
+.float {
+  position: fixed;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(
+    90deg,
+    var(--gradient-start) 0%,
+    var(--gradient-end) 100%
+  );
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+  margin: 20px;
+  padding: 0px;
 }
 
 /*=======================================
@@ -746,13 +766,38 @@ footer:last-child {
   }
 
   .footer-social ul {
-    margin: 0;
+    margin-right: 60px;
   }
 
-  .to-top {
+  /* .to-top {
     position: fixed;
     right: 20px;
     bottom: 15px;
     z-index: 999;
+  } */
+
+  .float {
+    position: fixed;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(
+      90deg,
+      var(--gradient-start) 0%,
+      var(--gradient-end) 100%
+    );
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    margin: 20px;
+    padding: 0px;
+  }
+  .float:hover {
+    background: var(--white);
+    color: var(--background);
+    transition: all 0.8s ease;
   }
 }
